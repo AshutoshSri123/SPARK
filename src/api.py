@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 
 # Import NASA fetcher
-from src.utils.nasa_power import fetch_nasa_data
+from utils.nasa_power import fetch_nasa_data
 
 # Load trained model
 model = joblib.load("models/energy_model.pkl")
